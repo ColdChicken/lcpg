@@ -302,3 +302,5 @@ LCPGExprCore[17] = [")": LCPGRSActionInfo(action: .reduce, count: 1, reduceToken
         super.init(core: LCPGExprCore, goto: LCPGExprGoto, fixPoints: LCPGExprFixPoints)
 }}
 ```
+
+在生成上面的swift文件后，基于 example/LCPGParser.swift 就可以进行相关的解析工作了。
